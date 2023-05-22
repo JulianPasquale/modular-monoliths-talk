@@ -1,6 +1,9 @@
 import React from 'react';
 import monolithFirst from '../images/monolith_first.png';
 import modularMonolith from '../images/modular_monolith.webp';
+import presentationDomainData from '../images/presentation_domain_data.png';
+import presentationDomainDataModularized from '../images/presentation_domain_data_modularized.png';
+import domainDrivenDesign from '../images/domain_driven_design_book.jpg';
 
 function WhyModularize() {
   return (
@@ -52,15 +55,51 @@ function WhyModularize() {
       </section>
 
       <section>
+        <h3>
+          <a href="https://martinfowler.com/bliki/PresentationDomainDataLayering.html">Presentation-Domain-Data Layering</a>
+        </h3>
+
+        <div className="flex justify-center">
+          <div className="flex">
+            <img className="mx-8" src={presentationDomainData} alt="PresentationDomainData" loading="lazy" />
+          </div>
+          <div className="flex">
+            <img className="mx-8" src={presentationDomainDataModularized} alt="PresentationDomainDataModularized" loading="lazy" />
+          </div>
+        </div>
+      </section>
+
+      <section>
         <h3>Monolitos modulares</h3>
 
+        <blockquote>
+          A modular monolith is a system where all of the code powers a single application
+          and there are strictly enforced boundaries between different domains.
+        </blockquote>
         <p>
-          Un monolito modular es un sistema en el que todo el código alimenta una sola aplicación
-          y existen límites estrictamente impuestos entre los diferentes dominios.
+          src:
+          <a href="https://shopify.engineering/deconstructing-monolith-designing-software-maximizes-developer-productivity">
+            &nbsp;Deconstructing the Monolith - Shopify
+          </a>
         </p>
+      </section>
 
-        <img src={modularMonolith} alt="Modular Monolith" loading="lazy" />
+      <section>
+        <h3>Monolitos modulares</h3>
 
+        <div className="flex">
+          <img src={modularMonolith} alt="Modular Monolith" loading="lazy" />
+        </div>
+      </section>
+
+      <section>
+        <h3>Domain Driven Design</h3>
+
+        <div className="flex flex-wrap justify-center">
+          <div className="max-w-sm">
+            <img src={domainDrivenDesign} alt="DDD" loading="lazy" />
+          </div>
+        </div>
       </section>
 
       <section>
