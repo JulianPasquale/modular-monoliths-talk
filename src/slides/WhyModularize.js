@@ -2,8 +2,10 @@ import React from 'react';
 import monolithFirst from '../images/monolith_first.png';
 import modularMonolith from '../images/modular_monolith.webp';
 import presentationDomainData from '../images/presentation_domain_data.png';
+import presentationDomainDataExtended from '../images/presentation_domain_data_extended.png';
 import presentationDomainDataModularized from '../images/presentation_domain_data_modularized.png';
 import domainDrivenDesign from '../images/domain_driven_design_book.jpg';
+import boundedContexts from '../images/bounded_contexts.png';
 
 function WhyModularize() {
   return (
@@ -35,6 +37,7 @@ function WhyModularize() {
             Acomplamiento
             <ul>
               <li>Flaky tests</li>
+              <li>Tiempo de ejecución de CI</li>
             </ul>
           </li>
           <li>
@@ -49,7 +52,6 @@ function WhyModularize() {
               <li>Curva de aprendizaje muy alta para nuevos devs</li>
             </ul>
           </li>
-          <li>Tiempo de ejecución de CI</li>
           <li><b>Productividad y felicidad de los desarrolladores</b></li>
         </ul>
       </section>
@@ -62,6 +64,9 @@ function WhyModularize() {
         <div className="flex justify-center">
           <div className="flex">
             <img className="mx-8" src={presentationDomainData} alt="PresentationDomainData" loading="lazy" />
+          </div>
+          <div className="flex">
+            <img className="mx-8" src={presentationDomainDataExtended} alt="PresentationDomainDataExtended" loading="lazy" />
           </div>
           <div className="flex">
             <img className="mx-8" src={presentationDomainDataModularized} alt="PresentationDomainDataModularized" loading="lazy" />
@@ -93,6 +98,14 @@ function WhyModularize() {
       </section>
 
       <section>
+        <p>
+          <a href="https://martinfowler.com/bliki/MonolithFirst.html">Martin Fowler MonolithFirst</a>
+
+          <img src={monolithFirst} alt="Monolith First" loading="lazy" />
+        </p>
+      </section>
+
+      <section>
         <h3>Domain Driven Design</h3>
 
         <div className="flex flex-wrap justify-center">
@@ -103,13 +116,14 @@ function WhyModularize() {
       </section>
 
       <section>
-        <p>
-          <a href="https://martinfowler.com/bliki/MonolithFirst.html">Martin Fowler MonolithFirst</a>
+        <h3>Domain Driven Design</h3>
 
-          <img src={monolithFirst} alt="Monolith First" loading="lazy" />
-        </p>
+        <div className="flex flex-wrap justify-center">
+          <div className="max-w-3xl">
+            <img src={boundedContexts} alt="Bounded Contexts" loading="lazy" />
+          </div>
+        </div>
       </section>
-
     </section>
   );
 }

@@ -13,7 +13,6 @@ function Agenda() {
             <li>Conceptos básicos</li>
             <li>Motivación</li>
             <li>Beneficios de los monolitos modulares</li>
-            <li>MasterClass motivation</li>
           </ul>
         </li>
 
