@@ -52,11 +52,7 @@ function App() {
 
         <slides.Agenda />
 
-        <slides.Vertical />
-
-        <slides.Code />
-
-        <slides.Image />
+        <slides.WhyModularize />
       </div>
     </main>
   );
