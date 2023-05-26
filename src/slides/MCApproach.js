@@ -194,7 +194,6 @@ function MCApproach() {
               
                   PATHS = [*APP_PATHS, *LIB_PATHS, *CONFIG_PATHS, *DB_PATHS].freeze
               
-                  # Intermediate step before migrating to components
                   Dir.glob('domains/*').each do |component_root|
                     PATHS.each do |path|
                       config.paths[path] << Rails.root.join(component_root, path)
@@ -207,6 +206,32 @@ function MCApproach() {
             `}
           </code>
         </pre>
+      </section>
+
+      <section>
+        <h3>Domain driven applitacion structure</h3>
+
+        <pre>
+          <code data-trim data-noescape className="language-ruby">
+            {`
+              # Rspec
+              config.pattern << ",../domains/*/spec/**/*_spec.rb"
+
+              # FactoryBot
+              FactoryBot.definition_file_paths = Dir.glob('domains/*/spec/factories')
+            `}
+          </code>
+        </pre>
+      </section>
+
+      <section>
+        <h3>Herramientas adicionales</h3>
+
+        <ul>
+          <li>Scripts para ayudar a mover archivos</li>
+          <li>Generator de migraciones</li>
+          <li>Evitar clases duplicadas</li>
+        </ul>
       </section>
     </section>
   );
