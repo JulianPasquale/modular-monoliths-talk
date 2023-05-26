@@ -8,7 +8,6 @@ function Agenda() {
       <ul>
         <li>
           Por qué modularizar?
-
           <ul>
             <li>Conceptos básicos</li>
             <li>Motivación</li>

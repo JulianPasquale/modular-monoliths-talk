@@ -1,11 +1,11 @@
 import React from 'react';
-import monolithFirst from '../images/monolith_first.png';
-import modularMonolith from '../images/modular_monolith.webp';
-import presentationDomainData from '../images/presentation_domain_data.png';
-import presentationDomainDataExtended from '../images/presentation_domain_data_extended.png';
-import presentationDomainDataModularized from '../images/presentation_domain_data_modularized.png';
-import domainDrivenDesign from '../images/domain_driven_design_book.jpg';
-import boundedContexts from '../images/bounded_contexts.png';
+import monolithFirst from '../images/whyModularize/monolith_first.png';
+import modularMonolith from '../images/whyModularize/modular_monolith.webp';
+import presentationDomainData from '../images/whyModularize/presentation_domain_data.png';
+import presentationDomainDataExtended from '../images/whyModularize/presentation_domain_data_extended.png';
+import presentationDomainDataModularized from '../images/whyModularize/presentation_domain_data_modularized.png';
+import domainDrivenDesign from '../images/whyModularize/domain_driven_design_book.jpg';
+import boundedContexts from '../images/whyModularize/bounded_contexts.png';
 
 function WhyModularize() {
   return (
