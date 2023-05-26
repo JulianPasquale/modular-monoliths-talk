@@ -45,14 +45,14 @@ function App() {
         </div>
       </nav>
 
-      <div
-        className="slides"
-      >
+      <div className="slides">
         <slides.CoverPage />
 
         <slides.Agenda />
 
         <slides.WhyModularize />
+
+        <slides.MCApproach />
       </div>
     </main>
   );
