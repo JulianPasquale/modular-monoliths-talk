@@ -53,6 +53,10 @@ function App() {
         <slides.WhyModularize />
 
         <slides.MCApproach />
+
+        <slides.Community />
+
+        <slides.WrapUp />
       </div>
     </main>
   );
