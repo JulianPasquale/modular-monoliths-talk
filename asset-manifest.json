@@ -1,20 +1,24 @@
 {
   "files": {
-    "main.css": "/modular-monoliths-talk/static/css/main.f9624524.css",
-    "main.js": "/modular-monoliths-talk/static/js/main.93b23c06.js",
+    "main.css": "/modular-monoliths-talk/static/css/main.4edd9059.css",
+    "main.js": "/modular-monoliths-talk/static/js/main.5f963c78.js",
     "static/media/bounded_contexts.png": "/modular-monoliths-talk/static/media/bounded_contexts.2a291522388ea7ba7cc6.png",
+    "static/media/packs-modularization-toolchain.png": "/modular-monoliths-talk/static/media/packs-modularization-toolchain.37fb00f466c673d7b7eb.png",
+    "static/media/gradual-modularization.png": "/modular-monoliths-talk/static/media/gradual-modularization.27de4851d4ddca30660b.png",
+    "static/media/packwerk.png": "/modular-monoliths-talk/static/media/packwerk.447ef387e7bb9e7f9f9d.png",
     "static/media/monolith_first.png": "/modular-monoliths-talk/static/media/monolith_first.7f8b583e9b7d0b8d7e92.png",
     "static/media/domain_driven_design_book.jpg": "/modular-monoliths-talk/static/media/domain_driven_design_book.2530305cbf855773f889.jpg",
     "static/media/modular_monolith.webp": "/modular-monoliths-talk/static/media/modular_monolith.953b8f6ea0c7984eb0e8.webp",
+    "static/media/component-based-rails-applications.jpg": "/modular-monoliths-talk/static/media/component-based-rails-applications.5221941e18ea2041fb49.jpg",
     "static/media/presentation_domain_data_extended.png": "/modular-monoliths-talk/static/media/presentation_domain_data_extended.3f9b7623945b1aaa7ee2.png",
     "static/media/presentation_domain_data_modularized.png": "/modular-monoliths-talk/static/media/presentation_domain_data_modularized.5205126d06a932d73dc3.png",
     "static/media/presentation_domain_data.png": "/modular-monoliths-talk/static/media/presentation_domain_data.83d0393ee29dbef5f2e8.png",
     "index.html": "/modular-monoliths-talk/index.html",
-    "main.f9624524.css.map": "/modular-monoliths-talk/static/css/main.f9624524.css.map",
-    "main.93b23c06.js.map": "/modular-monoliths-talk/static/js/main.93b23c06.js.map"
+    "main.4edd9059.css.map": "/modular-monoliths-talk/static/css/main.4edd9059.css.map",
+    "main.5f963c78.js.map": "/modular-monoliths-talk/static/js/main.5f963c78.js.map"
   },
   "entrypoints": [
-    "static/css/main.f9624524.css",
-    "static/js/main.93b23c06.js"
+    "static/css/main.4edd9059.css",
+    "static/js/main.5f963c78.js"
   ]
 }
