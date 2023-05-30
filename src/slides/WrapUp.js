@@ -43,6 +43,31 @@ function WrapUp() {
       </section>
 
       <section>
+        <h3>Recursos adicionales</h3>
+
+        <ul>
+          <li>
+            <a href="https://www.primevideotech.com/video-streaming/scaling-up-the-prime-video-audio-video-monitoring-service-and-reducing-costs-by-90">
+              AWS - Scaling up the Prime Video audio/video monitoring service
+              and reducing costs by 90%
+            </a>
+          </li>
+
+          <li>
+            <a href="https://world.hey.com/dhh/even-amazon-can-t-make-sense-of-serverless-or-microservices-59625580">
+              Even Amazon can&apos;t make sense of serverless or microservices
+            </a>
+          </li>
+          <li>
+            <a href="https://engineering.gusto.com/a-how-to-guide-to-ruby-packs-gustos-gem-ecosystem-for-modularizing-ruby-applications/">
+              A How-to Guide to Ruby Packs, Gusto&apos;s Gem Ecosystem
+              for Modularizing Ruby Applications
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <section>
         <h3>Preguntas?</h3>
       </section>
 
