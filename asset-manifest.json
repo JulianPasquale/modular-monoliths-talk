@@ -1,13 +1,17 @@
 {
   "files": {
     "main.css": "/modular-monoliths-talk/static/css/main.4edd9059.css",
-    "main.js": "/modular-monoliths-talk/static/js/main.5f963c78.js",
+    "main.js": "/modular-monoliths-talk/static/js/main.f9cc1e93.js",
+    "static/media/packs-rails-contribution.png": "/modular-monoliths-talk/static/media/packs-rails-contribution.9cc71064fe1ad6393863.png",
+    "static/media/shopify_deconstructing_the_monolith.png": "/modular-monoliths-talk/static/media/shopify_deconstructing_the_monolith.14d087bf2d25af02325a.png",
     "static/media/bounded_contexts.png": "/modular-monoliths-talk/static/media/bounded_contexts.2a291522388ea7ba7cc6.png",
     "static/media/packs-modularization-toolchain.png": "/modular-monoliths-talk/static/media/packs-modularization-toolchain.37fb00f466c673d7b7eb.png",
     "static/media/gradual-modularization.png": "/modular-monoliths-talk/static/media/gradual-modularization.27de4851d4ddca30660b.png",
     "static/media/packwerk.png": "/modular-monoliths-talk/static/media/packwerk.447ef387e7bb9e7f9f9d.png",
     "static/media/monolith_first.png": "/modular-monoliths-talk/static/media/monolith_first.7f8b583e9b7d0b8d7e92.png",
+    "static/media/zeitwerk.png": "/modular-monoliths-talk/static/media/zeitwerk.c5e99c34ee2e00453e9b.png",
     "static/media/domain_driven_design_book.jpg": "/modular-monoliths-talk/static/media/domain_driven_design_book.2530305cbf855773f889.jpg",
+    "static/media/rootstrap_rails-modular-monolith-with-ddd.png": "/modular-monoliths-talk/static/media/rootstrap_rails-modular-monolith-with-ddd.e3ece7fe8e0b9259aa0a.png",
     "static/media/modular_monolith.webp": "/modular-monoliths-talk/static/media/modular_monolith.953b8f6ea0c7984eb0e8.webp",
     "static/media/component-based-rails-applications.jpg": "/modular-monoliths-talk/static/media/component-based-rails-applications.5221941e18ea2041fb49.jpg",
     "static/media/presentation_domain_data_extended.png": "/modular-monoliths-talk/static/media/presentation_domain_data_extended.3f9b7623945b1aaa7ee2.png",
@@ -15,10 +19,10 @@
     "static/media/presentation_domain_data.png": "/modular-monoliths-talk/static/media/presentation_domain_data.83d0393ee29dbef5f2e8.png",
     "index.html": "/modular-monoliths-talk/index.html",
     "main.4edd9059.css.map": "/modular-monoliths-talk/static/css/main.4edd9059.css.map",
-    "main.5f963c78.js.map": "/modular-monoliths-talk/static/js/main.5f963c78.js.map"
+    "main.f9cc1e93.js.map": "/modular-monoliths-talk/static/js/main.f9cc1e93.js.map"
   },
   "entrypoints": [
     "static/css/main.4edd9059.css",
-    "static/js/main.5f963c78.js"
+    "static/js/main.f9cc1e93.js"
   ]
 }
