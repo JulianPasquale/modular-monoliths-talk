@@ -1,6 +1,7 @@
 import React from 'react';
 import monolithFirst from '../images/whyModularize/monolith_first.png';
 import modularMonolith from '../images/whyModularize/modular_monolith.webp';
+import ShopifyDeconstructingTheMonolith from '../images/whyModularize/shopify_deconstructing_the_monolith.png';
 import presentationDomainData from '../images/whyModularize/presentation_domain_data.png';
 import presentationDomainDataExtended from '../images/whyModularize/presentation_domain_data_extended.png';
 import presentationDomainDataModularized from '../images/whyModularize/presentation_domain_data_modularized.png';
@@ -23,10 +24,8 @@ function WhyModularize() {
           data processing, error handling, and the user interface) are all interwoven,
           rather than containing architecturally separate components.
         </blockquote>
-        <p>
-          src:
-          <a href="https://en.wikipedia.org/wiki/Monolithic_system"> Wikipedia</a>
-        </p>
+
+        <a href="https://en.wikipedia.org/wiki/Monolithic_system"> Wikipedia</a>
       </section>
 
       <section>
@@ -34,9 +33,8 @@ function WhyModularize() {
 
         <ul>
           <li>
-            Acomplamiento
+            Acoplamiento
             <ul>
-              <li>Flaky tests</li>
               <li>Tiempo de ejecución de CI</li>
             </ul>
           </li>
@@ -44,6 +42,7 @@ function WhyModularize() {
             Ownership
             <ul>
               <li>Quién se hace cargo si se rompe algo?</li>
+              <li>Flaky tests</li>
             </ul>
           </li>
           <li>
@@ -77,16 +76,19 @@ function WhyModularize() {
       <section>
         <h3>Monolitos modulares</h3>
 
+        <img src={ShopifyDeconstructingTheMonolith} alt="Deconstructing the Monolith" loading="lazy" />
+        <a href="https://shopify.engineering/deconstructing-monolith-designing-software-maximizes-developer-productivity">
+          &nbsp;Deconstructing the Monolith - Shopify
+        </a>
+      </section>
+
+      <section>
+        <h3>Monolitos modulares</h3>
+
         <blockquote>
           A modular monolith is a system where all of the code powers a single application
           and there are strictly enforced boundaries between different domains.
         </blockquote>
-        <p>
-          src:
-          <a href="https://shopify.engineering/deconstructing-monolith-designing-software-maximizes-developer-productivity">
-            &nbsp;Deconstructing the Monolith - Shopify
-          </a>
-        </p>
       </section>
 
       <section>

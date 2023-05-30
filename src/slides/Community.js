@@ -3,6 +3,8 @@ import componentBasedRailsApplications from '../images/community/component-based
 import gradualModularization from '../images/community/gradual-modularization.png';
 import packwerk from '../images/community/packwerk.png';
 import packsModularizationToolchain from '../images/community/packs-modularization-toolchain.png';
+import packsRailsContribution from '../images/community/packs-rails-contribution.png';
+import railsModularMonolithWithDDD from '../images/community/rootstrap_rails-modular-monolith-with-ddd.png';
 
 function Community() {
   return (
@@ -35,6 +37,11 @@ function Community() {
       </section>
 
       <section>
+        <img width="70%" src={packsRailsContribution} alt="Contribution" loading="lazy" />
+      </section>
+
+      <section>
+        <img width="75%" src={railsModularMonolithWithDDD} alt="Rails Modular Monolith with DDD" loading="lazy" />
         <a href="https://github.com/rootstrap/rails-modular-monolith-with-ddd">
           rootstrap/rails-modular-monolith-with-ddd
         </a>
