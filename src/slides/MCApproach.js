@@ -1,4 +1,5 @@
 import React from 'react';
+import zeitwerk from '../images/MCApproach/zeitwerk.png';
 
 function MCApproach() {
   return (
@@ -8,7 +9,7 @@ function MCApproach() {
       </section>
 
       <section>
-        <h3>Estrutura de Rails</h3>
+        <h3>Estructura de Rails</h3>
 
         <pre className="max-w-md">
           <code data-trim data-noescape className="language-bash">
@@ -86,6 +87,15 @@ function MCApproach() {
             `}
           </code>
         </pre>
+      </section>
+
+      <section>
+        <h3>
+          Proposal 2 -
+          <a href="https://github.com/fxn/zeitwerk"> Zeitwerk</a>
+        </h3>
+
+        <img width="40%" src={zeitwerk} alt="Zeitwerk" loading="lazy" />
       </section>
 
       <section>

@@ -16,7 +16,6 @@ function Agenda() {
         </li>
 
         <li>MasterClass approach</li>
-        <li>Rails support</li>
         <li>Estado del arte</li>
       </ul>
     </section>
