@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/modular-monoliths-talk/static/css/main.4edd9059.css",
-    "main.js": "/modular-monoliths-talk/static/js/main.f9cc1e93.js",
+    "main.js": "/modular-monoliths-talk/static/js/main.f4dd6d54.js",
     "static/media/packs-rails-contribution.png": "/modular-monoliths-talk/static/media/packs-rails-contribution.9cc71064fe1ad6393863.png",
     "static/media/shopify_deconstructing_the_monolith.png": "/modular-monoliths-talk/static/media/shopify_deconstructing_the_monolith.14d087bf2d25af02325a.png",
     "static/media/bounded_contexts.png": "/modular-monoliths-talk/static/media/bounded_contexts.2a291522388ea7ba7cc6.png",
@@ -19,10 +19,10 @@
     "static/media/presentation_domain_data.png": "/modular-monoliths-talk/static/media/presentation_domain_data.83d0393ee29dbef5f2e8.png",
     "index.html": "/modular-monoliths-talk/index.html",
     "main.4edd9059.css.map": "/modular-monoliths-talk/static/css/main.4edd9059.css.map",
-    "main.f9cc1e93.js.map": "/modular-monoliths-talk/static/js/main.f9cc1e93.js.map"
+    "main.f4dd6d54.js.map": "/modular-monoliths-talk/static/js/main.f4dd6d54.js.map"
   },
   "entrypoints": [
     "static/css/main.4edd9059.css",
-    "static/js/main.f9cc1e93.js"
+    "static/js/main.f4dd6d54.js"
   ]
 }
